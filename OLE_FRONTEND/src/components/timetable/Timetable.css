@@ -1,0 +1,17 @@
+.timetable {
+  position: relative;
+
+  width: 90vw;
+  height: 80vh;
+  top: 1rem;
+}
+
+.day-card {
+  background-color: red;
+}
+
+.day-cards {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+}
