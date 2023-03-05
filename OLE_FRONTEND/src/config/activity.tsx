@@ -1,9 +1,11 @@
 export type Activity = {
-  id: number
-  week: string
+  id: string
   type: string
   name: string
   day: string
   startTime: number
   endTime: number
+  notes: string
 }
+
+export type ActivityArray = Activity[];

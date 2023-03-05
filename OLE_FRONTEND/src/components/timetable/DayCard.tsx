@@ -7,7 +7,7 @@ type Props = {
 const DayCard = (props: Props) => {
   return (
     <div className="day-card">
-      <h2>{props.day}</h2>
+      <h3>{props.day}</h3>
     </div>
   )
 }

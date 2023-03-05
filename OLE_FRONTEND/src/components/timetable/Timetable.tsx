@@ -1,18 +1,16 @@
 import React from 'react';
-import * as activities from '../../config/activities.json';
-import { Activity } from '../../config/activity';
 import DayCard from './DayCard';
+import TimeGrid from './TimeGrid';
 
 const timetable = () => {
-
+  const [cellIds, setCellIds] = React.useState([]);
   const days = ["Mon", "Tues", "Wed", "Thurs", "Fri"]
   return (
     <div className="timetable">
-
       <div className="day-cards">
-        {days.map(day => <DayCard day={day}/>)}
+        {days.map(day => <DayCard day={day} />)}
       </div>
-
+      <TimeGrid />
     </div>
   )
 }

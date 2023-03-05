@@ -1,3 +1,49 @@
 {
-  "activities": []
+  "activities": [
+    {
+      "id": "1monday13",
+      "type": "lesson",
+      "name": "Ray",
+      "day": "monday",
+      "startTime": 13,
+      "endTime": 14,
+      "notes": "weekly lesson"
+    },
+    {
+      "id": "1thursday10",
+      "type": "block",
+      "name": "Ole",
+      "day": "thursday",
+      "startTime": 10,
+      "endTime": 11,
+      "notes": "ceebs teaching fuckin kids"
+    },
+    {
+      "id": "1wednesday18",
+      "type": "special",
+      "name": "Studio",
+      "day": "wednesday",
+      "startTime": 18,
+      "endTime": 19,
+      "notes": "performance"
+    },
+    {
+      "id": "1wednesday19",
+      "type": "special",
+      "name": "Studio",
+      "day": "wednesday",
+      "startTime": 19,
+      "endTime": 20,
+      "notes": "performance"
+    },
+    {
+      "id": "1wednesday8",
+      "type": "lesson",
+      "name": "Ryan",
+      "day": "wednesday",
+      "startTime": 8,
+      "endTime": 9,
+      "notes": "performance"
+    }
+  ]
 }
