@@ -12,4 +12,4 @@ const TimeCard = (props: Props) => {
   )
 }
 
-export default TimeCard
+export default TimeCard;

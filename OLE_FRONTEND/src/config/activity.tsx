@@ -1,5 +1,6 @@
 export type Activity = {
   id: string
+  ownerId: string
   type: string
   name: string
   day: string
